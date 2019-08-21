@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="{{ shop.locale }}">
+
+<head>
+  <script>document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  {% assign tab_index = 0 %}
+
+  {% if template == 'index' %}
+    <title>{{ shop.name }} | {{ page_title }}</title>
+  {% elsif template == '404' %}
+    <title>{{ "general.404.title" | t }} | {{ shop.name }}</title>
+  {% else %}
+    <title>{{ page_title }} | {{ shop.name }}</title>
+  {% endif %}
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}" />
+  {% endif %}
+
+  {% include 'favicon' %}
+
+  {% if template contains 'collection' and current_tags %}
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+  {% else %}
+    <link rel="canonical" href="{{ canonical_url }}" />
+  {% endif %}
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
+  
+  {% include 'treedify' %}{{ content_for_header }}
+
+  {% assign twitter_handle = settings.social_twitter_url | split: 'twitter.com/' | last %}
+  {%
+    include 'social-meta-tags',
+    twitter_handle: twitter_handle
+  %}
+
+  {% include 'scripts-styles-header' %}
+  
+  <link href="https://fonts.googleapis.com/css?family=Signika+Negative:400,700" rel="stylesheet">
+
+
+<script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script></head>
+
+{% include 'additional-classes' %}
+<body class="{{ bodyClasses }}">
+
+  {% section 'pxs-announcement-bar' %}
+
+  {% section 'static-header' %}
+
+  <main class="main-content">
+
+    {% unless template contains 'index' or fullBleed %}
+      {% unless template contains 'slideshow' and settings.product-slideshow-layout == 'full-width' %}
+        {% include 'breadcrumbs' %}
+      {% endunless %}
+    {% endunless %}
+
+    {{ content_for_layout }}
+	<noscript class="endOfLayoutContentX" type="text/mark"></noscript>{% include 'treedify_script' %}
+  </main>
+
+  {% section 'static-newsletter' %}
+
+  {% section 'static-social-feeds' %}
+
+  {% section 'static-footer' %}
+
+  {% include 'scripts-styles-footer' %}
+
+  {% include 'structured-data' %}
+
+<!-- Begin ReCharge code -->
+{% include 'subscription-theme-footer' %}
+<!-- End ReCharge code -->
+  
+  
+  
+  
+  
+  
+{% include 'aaa_loyalty_snippet' %}
+<input type="hidden" id="656565115116111114101" data-customer-id="{{ customer.id }}" data-customer-email="{{ customer.email }}" data-customer-name="{{ customer.first_name }} {{ customer.last_name }}"/></body>
+</html>
