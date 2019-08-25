@@ -1,0 +1,27 @@
+//************************************************************************//
+// Product Form
+//************************************************************************//
+.product-form-buttons {
+  margin: 10px 0;
+  text-align: center;
+  button.button {
+    line-height: 1;
+    padding: 20px 30px;
+    border-radius: 30px;
+    min-width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    &:focus, &:hover {
+      text-decoration: none;
+      outline: 0;
+      border: 0;
+    }
+  }
+  .buy-now-button {
+    background-color: #D49B94;    
+  }
+  .trigger-form-button {
+    background-color: #FFD700;
+  }
+}

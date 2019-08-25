@@ -1,0 +1,31 @@
+<div class="deliver-calc">
+  <div class="deliver-calc--inner">
+    <div class="deliver-calc--wrapper">
+      <span class="deliver-calc--label">
+        Delivery
+      </span>
+      <div class="deliver-calc--form">
+        <div class="deliver-form--wrapper">
+          <span class="deliver-form--icon">
+            {%- include 'icons' icon: 'location' -%}
+          </span>
+          <input type="text" name="postal_code" class="deliver-form--input" placeholder="Enter Postal Code" />
+          <a href="#" class="deliver-form--submit">Check</a>
+        </div>
+        <div class="deliver-form--notes">
+          <span class="deliver-form--note-left">Delivery in 3-4 days</span>
+          <span class="deliver-form--note-right">$10.00 CAD</span>
+        </div>
+      </div>
+      <span>or</span>
+      <div class="deliver-form--view_map">
+        <a href="#popup-view-map" class="view_map--trigger">
+          View Delivery Area Map
+        </a>
+      </a>
+    </div>
+  </div>
+  <div class="deliver-calc--note">
+    *Serving Guidelines: each pack contains 500 grams of food (2 cup portion servings) we recommend 1 cup per day per 10 lbs of body weight. See meal plan <a href="#">calculator</a> for more info.
+  </div>
+</div>

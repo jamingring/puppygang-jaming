@@ -1,0 +1,108 @@
+//************************************************************************//
+// Deliver Form
+//************************************************************************//
+
+.deliver-calc {
+  #popup-view-map {
+    display: none;
+  }
+  a {
+    &:focus, &:hover {
+      outline: 0;
+      border: none;
+      text-decoration: none;
+    }
+  }
+  .deliver-calc--inner {
+    margin-top: 20px;
+  }
+  .deliver-calc--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    > span {
+      margin: 0 10px;
+      padding-top: 7px;
+    }
+    > span.deliver-calc--label {
+      margin: 0;
+      padding-top: 2px;
+      font-size: 20px;
+      color: #8B8B8B;
+    }
+  }
+  .deliver-calc--form {
+    max-width: 260px;
+    margin-left: 20px;
+    width: 260px;
+  }
+  .deliver-form--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    max-width: 260px;
+  }
+  .deliver-form--icon {
+    position: absolute;
+    left: 0;
+    color: #0084FF;
+    top: 10px;
+  }
+  .deliver-form--input {
+    border-radius: 0;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 2px solid #0084FF;
+    padding: 7px 47px 7px 20px;
+    font-size: 16px;
+    height: auto;
+    line-height: 1.7;
+    &:focus {
+      background-color: transparent;
+    }
+  }
+  .deliver-form--submit {
+    position: absolute;
+    right: 0;
+    color: #0084FF;
+    top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .deliver-form--notes {
+    display: flex;
+    position: relative;
+    padding: 10px 0;
+    color: #000;
+    font-weight: 500;
+    .deliver-form--note-left {
+      font-size: 16px;
+      padding-right: 16px;
+      line-height: 1;
+    }
+    .deliver-form--note-right {
+      padding-left: 15px;
+      border-left: 1px solid #707070;
+      line-height: 1;
+    }
+  }
+  .deliver-form--view_map {
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 7px;
+    a {
+      color: #2680EB;
+    }
+  }
+  .deliver-calc--note {
+    color: #707070;
+    max-width: 87%;
+    margin-top: 20px;
+    a {
+      color: #0084FF;
+    }
+  }
+}

@@ -22,15 +22,15 @@
     "product_goal_starting_quantity": "",
     "product_goal": "",
     "product_goal_use_quantity": false,
-    "product_sale_goal_date_time": "06\/21\/2017 15:00",
-    "social_default_image": "shopify:\/\/shop_images\/puppy-gang-logo.png",
-    "social_facebook_url": "https:\/\/www.facebook.com\/puppygangfreshfoods\/",
+    "product_sale_goal_date_time": "06/21/2017 15:00",
+    "social_default_image": "shopify://shop_images/puppy-gang-logo.png",
+    "social_facebook_url": "https://www.facebook.com/puppygangfreshfoods/",
     "social_twitter_url": "",
     "social_google_url": "",
     "social_pinterest_url": "",
-    "social_instagram_url": "https:\/\/www.instagram.com\/puppygangfreshfoods\/",
+    "social_instagram_url": "https://www.instagram.com/puppygangfreshfoods/",
     "social_vimeo_url": "",
-    "social_youtube_url": "https:\/\/www.youtube.com\/channel\/UC8u23kcnaBuYcmdRFqc617g",
+    "social_youtube_url": "https://www.youtube.com/channel/UC8u23kcnaBuYcmdRFqc617g",
     "social_rss_url": "",
     "enable_currency_converter": true,
     "currency_display_format": "money_with_currency_format",
@@ -61,13 +61,13 @@
             "settings": {
               "alignment": "left",
               "text_style": "dark",
-              "image": "shopify:\/\/shop_images\/puppygangfreshfoods-bnr-final_b0d7e7af-f5d7-47fb-baa8-7ea598052114.jpg",
+              "image": "shopify://shop_images/puppygangfreshfoods-bnr-final_b0d7e7af-f5d7-47fb-baa8-7ea598052114.jpg",
               "overlay_style": "none",
               "overlay_opacity": 70,
               "title": "Nutritious, gently cooked dog food delivered straight to your door",
               "subtitle": "",
               "cta": "Get Started",
-              "url": "shopify:\/\/collections\/our-meals"
+              "url": "shopify://collections/our-meals"
             }
           }
         },
@@ -90,10 +90,10 @@
             "settings": {
               "style": "default",
               "title": "Our Meals",
-              "text": "<p>We take feeding our dogs seriously. At Puppy Gang Fresh Foods we want our dogs to eat just as well as we do. And we know you want that too!<\/p>\n<p>That&rsquo;s why our products have been specifically developed in consultation with a certified holistic veterinarian to provide your dogs with healthy meals and the balance of nutrients they need. We use antibiotic and hormone free meats and our meals are free from fillers, artificial and processed ingredients.<\/p>",
+              "text": "<p>We take feeding our dogs seriously. At Puppy Gang Fresh Foods we want our dogs to eat just as well as we do. And we know you want that too!</p>\n<p>That&rsquo;s why our products have been specifically developed in consultation with a certified holistic veterinarian to provide your dogs with healthy meals and the balance of nutrients they need. We use antibiotic and hormone free meats and our meals are free from fillers, artificial and processed ingredients.</p>",
               "button_text": "Browse Meals",
-              "button_link": "shopify:\/\/collections\/all",
-              "image": "shopify:\/\/shop_images\/our-meals-homepage2.png"
+              "button_link": "shopify://collections/all",
+              "image": "shopify://shop_images/our-meals-homepage2.png"
             }
           }
         },
@@ -109,36 +109,36 @@
             "type": "feature",
             "settings": {
               "title": "Zesty Rosemary Chicken",
-              "text": "<p><a href=\"\/products\/zesty-rosemary-chicken\" title=\"Zesty Rosemary Chicken\">BUY NOW<\/a><\/p>",
+              "text": "<p><a href=\"/products/zesty-rosemary-chicken\" title=\"Zesty Rosemary Chicken\">BUY NOW</a></p>",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/Zesty-Rosemary-Chicken.png"
+              "icon_image": "shopify://shop_images/Zesty-Rosemary-Chicken.png"
             }
           },
           "dynamic-product-focus-2": {
             "type": "feature",
             "settings": {
               "title": "Beef Lovers",
-              "text": "<p><a href=\"\/products\/beef-lovers\" title=\"Beef Lovers\">BUT NOW<\/a><\/p>",
+              "text": "<p><a href=\"/products/beef-lovers\" title=\"Beef Lovers\">BUT NOW</a></p>",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/Beef-Lovers.png"
+              "icon_image": "shopify://shop_images/Beef-Lovers.png"
             }
           },
           "dynamic-product-focus-3": {
             "type": "feature",
             "settings": {
               "title": "Fisherman's Catch",
-              "text": "<p><a href=\"\/products\/fishermans-catch\" title=\"Fisherman's Catch\">BUY NOW<\/a><\/p>",
+              "text": "<p><a href=\"/products/fishermans-catch\" title=\"Fisherman's Catch\">BUY NOW</a></p>",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/Fisherman_s-Catch.png"
+              "icon_image": "shopify://shop_images/Fisherman_s-Catch.png"
             }
           },
           "dynamic-product-focus-4": {
             "type": "feature",
             "settings": {
               "title": "Thanksgiving Turkey",
-              "text": "<p><a href=\"\/products\/variety-pack-mixed-30-pack\" title=\"Variety Pack - Mixed 30-Pack\">BUY NOW<\/a><\/p>",
+              "text": "<p><a href=\"/products/variety-pack-mixed-30-pack\" title=\"Variety Pack - Mixed 30-Pack\">BUY NOW</a></p>",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/Thanksgiving-Turkey.png"
+              "icon_image": "shopify://shop_images/Thanksgiving-Turkey.png"
             }
           }
         },
@@ -163,33 +163,33 @@
             "type": "text_column",
             "settings": {
               "title": "Step 1",
-              "text": "<p>Set up an account and create your pup&rsquo;s profile.<\/p>",
+              "text": "<p>Set up an account and create your pup&rsquo;s profile.</p>",
               "button_text": "",
               "button_link": "",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/icon-dog.png"
+              "icon_image": "shopify://shop_images/icon-dog.png"
             }
           },
           "text-column-2": {
             "type": "text_column",
             "settings": {
               "title": "Step 2",
-              "text": "<p>Design your dog&rsquo;s order by selecting the meals and choosing a 14-pack or 30-pack order and frequency. First time customers may choose a 7 pack trial pack. Pause, cancel or change your order at any time<\/p>",
+              "text": "<p>Design your dog&rsquo;s order by selecting the meals and choosing a 14-pack or 30-pack order and frequency. First time customers may choose a 7 pack trial pack. Pause, cancel or change your order at any time</p>",
               "button_text": "",
               "button_link": "",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/icon-cart_71d3b733-6d78-4a54-bc0a-8acd25281cbc.png"
+              "icon_image": "shopify://shop_images/icon-cart_71d3b733-6d78-4a54-bc0a-8acd25281cbc.png"
             }
           },
           "text-column-3": {
             "type": "text_column",
             "settings": {
               "title": "Step 3",
-              "text": "<p>Select your preferable delivery option. Choose from PenguinPickUp or <br> door-to-door courier.<\/p>",
+              "text": "<p>Select your preferable delivery option. Choose from PenguinPickUp or <br> door-to-door courier.</p>",
               "button_text": "",
               "button_link": "",
               "icon": "",
-              "icon_image": "shopify:\/\/shop_images\/icon-delivery_bac25584-5f13-488b-9ab4-8c5eb078894d.png"
+              "icon_image": "shopify://shop_images/icon-delivery_bac25584-5f13-488b-9ab4-8c5eb078894d.png"
             }
           }
         },
@@ -211,28 +211,28 @@
           "testimonial-1": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"Hi Puppy Gang Fresh Foods. My&nbsp;name is Bentley and i'm a Westie who is getting older and was losing&nbsp;energy. Ever since Mom started feeding me Puppy Gang Fresh Foods Mom has&nbsp;been amazed by all my new energy and how I am acting like I did when I was&nbsp;a pup! I like all the flavors but Fisherman's Catch is my favorite! I've&nbsp;had some skin issues (which is common for Westies) and since eating Puppy&nbsp;Gang Fresh Foods my coat is soft and shiny!\"<\/p>",
+              "quote": "<p>\"Hi Puppy Gang Fresh Foods. My&nbsp;name is Bentley and i'm a Westie who is getting older and was losing&nbsp;energy. Ever since Mom started feeding me Puppy Gang Fresh Foods Mom has&nbsp;been amazed by all my new energy and how I am acting like I did when I was&nbsp;a pup! I like all the flavors but Fisherman's Catch is my favorite! I've&nbsp;had some skin issues (which is common for Westies) and since eating Puppy&nbsp;Gang Fresh Foods my coat is soft and shiny!\"</p>",
               "source": "Bentley",
               "city": "Toronto",
-              "image": "shopify:\/\/shop_images\/Bentley-avatar.jpg"
+              "image": "shopify://shop_images/Bentley-avatar.jpg"
             }
           },
           "testimonial-2": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"We are Boston Terrier sisters who LOVE to play! Since we started eating Puppy Gang Fresh Foods we have extra energy to run and jump and have fun! In fact, Mom says we still act just like puppies!\"<\/p>",
+              "quote": "<p>\"We are Boston Terrier sisters who LOVE to play! Since we started eating Puppy Gang Fresh Foods we have extra energy to run and jump and have fun! In fact, Mom says we still act just like puppies!\"</p>",
               "source": "Mia & Grace",
               "city": "Toronto",
-              "image": "shopify:\/\/shop_images\/MiaGracie-avatar.jpg"
+              "image": "shopify://shop_images/MiaGracie-avatar.jpg"
             }
           },
           "1557252403640": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"My Dad and I are really active! Puppy Gang&nbsp;Fresh Foods fuels me for the long runs my dad takes me on! I am so happy&nbsp;Dad started feeding me fresh food to keep me healthy like him!\"<\/p>",
+              "quote": "<p>\"My Dad and I are really active! Puppy Gang&nbsp;Fresh Foods fuels me for the long runs my dad takes me on! I am so happy&nbsp;Dad started feeding me fresh food to keep me healthy like him!\"</p>",
               "source": "Molly",
               "city": "Toronto",
-              "image": "shopify:\/\/shop_images\/Molly-avatar.jpg"
+              "image": "shopify://shop_images/Molly-avatar.jpg"
             }
           }
         },
@@ -254,7 +254,7 @@
           "announcement_home_only": false,
           "announcement_text": "Use code PuppyGang20 for 20% off your first pack! TRY NOW",
           "announcement_text_mobile": "Use code PuppyGang20 for 20% off your first pack! TRY NOW",
-          "announcement_link": "shopify:\/\/collections\/our-meals",
+          "announcement_link": "shopify://collections/our-meals",
           "announcement_color": "#ffffff",
           "announcement_background": "#d49b94"
         }
@@ -266,7 +266,7 @@
           "header_sticky": true,
           "show_cart": true,
           "drawer_social_icons": false,
-          "header_logo": "shopify:\/\/shop_images\/puppy-gang-logo.png",
+          "header_logo": "shopify://shop_images/puppy-gang-logo.png",
           "header_logo_alternate": ""
         }
       },
@@ -297,7 +297,7 @@
             "type": "richtext",
             "settings": {
               "title": "Our Story",
-              "text": "<p>Puppy Gang Fresh Food was formed in Toronto to make it easy to feed your dogs healthy and nutritious foods. But this is not where the story starts. It starts in 2018 in Hong Kong where Kalinda, a Schnauzer was adopted and saved from a shelter.<\/p>\n<p><a href=\"\/pages\/about\" title=\"About\">Learn more &rarr;<\/a>&nbsp;<\/p>"
+              "text": "<p>Puppy Gang Fresh Food was formed in Toronto to make it easy to feed your dogs healthy and nutritious foods. But this is not where the story starts. It starts in 2018 in Hong Kong where Kalinda, a Schnauzer was adopted and saved from a shelter.</p>\n<p><a href=\"/pages/about\" title=\"About\">Learn more &rarr;</a>&nbsp;</p>"
             }
           }
         },
@@ -312,7 +312,7 @@
           "enable_borders": true,
           "payment_icons": true,
           "show_logo": true,
-          "footer_logo": "shopify:\/\/shop_images\/puppy-gang-logo.png",
+          "footer_logo": "shopify://shop_images/puppy-gang-logo.png",
           "footer_logo_alternate": ""
         }
       },
@@ -384,7 +384,7 @@
           "module-team-0": {
             "type": "team_member",
             "settings": {
-              "image": "shopify:\/\/shop_images\/marisa-founders.png",
+              "image": "shopify://shop_images/marisa-founders.png",
               "title": "Marisa Hoskins",
               "job_title": "Co-Founder"
             }
@@ -392,7 +392,7 @@
           "module-team-1": {
             "type": "team_member",
             "settings": {
-              "image": "shopify:\/\/shop_images\/sarah-founders.png",
+              "image": "shopify://shop_images/sarah-founders.png",
               "title": "Sarah Tritsaris",
               "job_title": "Co-Founder"
             }
@@ -414,7 +414,7 @@
         "settings": {
           "newsletter_title": "Be the first to know when we launch.",
           "newsletter_text": "",
-          "password_logo": "shopify:\/\/shop_images\/puppy-gang-logo.png"
+          "password_logo": "shopify://shop_images/puppy-gang-logo.png"
         }
       },
       "module-faq": {
@@ -424,119 +424,119 @@
             "type": "faq",
             "settings": {
               "title": "How much should I feed my dog?",
-              "text": "<p>The general guideline is 1 cup of food per day for every 10 pounds your dog weighs.<\/p>"
+              "text": "<p>The general guideline is 1 cup of food per day for every 10 pounds your dog weighs.</p>"
             }
           },
           "module-faq-1": {
             "type": "faq",
             "settings": {
               "title": "How much food is in each Puppy Gang Fresh Food pack?",
-              "text": "<p>Each pack contains 2 cups.<\/p>"
+              "text": "<p>Each pack contains 2 cups.</p>"
             }
           },
           "module-faq-2": {
             "type": "faq",
             "settings": {
               "title": "How do I prepare the meal?",
-              "text": "<p>You can prepare in a few different ways: defrost in the fridge (this is the best way but takes the longest), immerse the pack in water, or remove the food from the package and defrost in a microwaveable safe container.<\/p>"
+              "text": "<p>You can prepare in a few different ways: defrost in the fridge (this is the best way but takes the longest), immerse the pack in water, or remove the food from the package and defrost in a microwaveable safe container.</p>"
             }
           },
           "1557954812487": {
             "type": "faq",
             "settings": {
               "title": "Should I heat up the meal to feed to my dog?",
-              "text": "<p>Dogs do not need their food heated up. You can serve Puppy Gang Fresh Food cold once it is defrosted, or if you prefer you can slightly warm it up as well. It is already cooked, so you do not need to re-cook.<\/p>"
+              "text": "<p>Dogs do not need their food heated up. You can serve Puppy Gang Fresh Food cold once it is defrosted, or if you prefer you can slightly warm it up as well. It is already cooked, so you do not need to re-cook.</p>"
             }
           },
           "1557954833370": {
             "type": "faq",
             "settings": {
               "title": "How long does the package stay good once I have opened it?",
-              "text": "<p>If you store the food in a sealed container it should remain good to use for up to 4 days, similar to human food.<\/p>"
+              "text": "<p>If you store the food in a sealed container it should remain good to use for up to 4 days, similar to human food.</p>"
             }
           },
           "1557954837867": {
             "type": "faq",
             "settings": {
               "title": "How long can I keep the food frozen before using it?",
-              "text": "<p>As our food is vacuum sealed, it last longer in the freezer than food stored in other ways. Therefore, our food can be frozen for up to 18 months before use.<\/p>"
+              "text": "<p>As our food is vacuum sealed, it last longer in the freezer than food stored in other ways. Therefore, our food can be frozen for up to 18 months before use.</p>"
             }
           },
           "1557954920930": {
             "type": "faq",
             "settings": {
               "title": "Can I feed my dog the same recipe every day?",
-              "text": "<p>Puppy Gang Fresh Foods has specifically designed 4 recipes with a holistic nutritionist to ensure that they contain the required nutrients for dogs. We therefore recommend that you provide your dog with the different meals to maximise their nutrients. &nbsp;<\/p>"
+              "text": "<p>Puppy Gang Fresh Foods has specifically designed 4 recipes with a holistic nutritionist to ensure that they contain the required nutrients for dogs. We therefore recommend that you provide your dog with the different meals to maximise their nutrients. &nbsp;</p>"
             }
           },
           "1557954944303": {
             "type": "faq",
             "settings": {
               "title": "Are Puppy Gang Fresh Foods ingredients nutritious?",
-              "text": "<p>Yes, our meals have been designed with your pup&rsquo;s health in mind in conjunction with a holistic veterinarian. You will recognise all ingredients in our meals - which is important! They are hormone and antibiotic free meat with organ and bone, nutritional supplements such as kelp powder and whole fruits and vegetables to give your pup the nutrients they need.<\/p>"
+              "text": "<p>Yes, our meals have been designed with your pup&rsquo;s health in mind in conjunction with a holistic veterinarian. You will recognise all ingredients in our meals - which is important! They are hormone and antibiotic free meat with organ and bone, nutritional supplements such as kelp powder and whole fruits and vegetables to give your pup the nutrients they need.</p>"
             }
           },
           "1557954977094": {
             "type": "faq",
             "settings": {
               "title": "Do you have vitamins and minerals in your meals?",
-              "text": "<p>Our recipes contain a mix of macro and micronutrients found in whole meats, fish, fruits and veggies. As a result, the only mineral that we include is kelp powder which is all natural. Kelp powder is a leading source of iodine which is a trace mineral needed for healthy thyroid function. Kelp powder contains manganese, calcium, magnesium, copper, zinc, riboflavin, niacin, thiamin, as wella s vitamins A, B-12, B-6 and C.<\/p>"
+              "text": "<p>Our recipes contain a mix of macro and micronutrients found in whole meats, fish, fruits and veggies. As a result, the only mineral that we include is kelp powder which is all natural. Kelp powder is a leading source of iodine which is a trace mineral needed for healthy thyroid function. Kelp powder contains manganese, calcium, magnesium, copper, zinc, riboflavin, niacin, thiamin, as wella s vitamins A, B-12, B-6 and C.</p>"
             }
           },
           "1557955000057": {
             "type": "faq",
             "settings": {
               "title": "Other companies have carbohydrates such as pasta - is this needed for my pup?",
-              "text": "<p>The majority of dogs do not need grains as a component of their diet - proteins, whole fruits and vegetables will meet the nutritional needs of your pup. No dogs need refined carbohydrates, therefore pasta can be considered a &lsquo;filler&rsquo; and take away from the nutrition that your pup needs. Other grains can be considered a filler for most dogs, which is why we have specifically not added any of our recipes. However, some larger dogs may need some additional carbohydrates added to their diet. To determine whether your dog needs grains in their diet please consult with a veterinarian. We will be adding to our recipe collection and there will soon be a recipe with healthy whole grains for dogs with extra energy expenditure.<\/p>"
+              "text": "<p>The majority of dogs do not need grains as a component of their diet - proteins, whole fruits and vegetables will meet the nutritional needs of your pup. No dogs need refined carbohydrates, therefore pasta can be considered a &lsquo;filler&rsquo; and take away from the nutrition that your pup needs. Other grains can be considered a filler for most dogs, which is why we have specifically not added any of our recipes. However, some larger dogs may need some additional carbohydrates added to their diet. To determine whether your dog needs grains in their diet please consult with a veterinarian. We will be adding to our recipe collection and there will soon be a recipe with healthy whole grains for dogs with extra energy expenditure.</p>"
             }
           },
           "1557955023292": {
             "type": "faq",
             "settings": {
               "title": "How often can I receive a package?",
-              "text": "<p>If this is your first time buying Puppy Gang Fresh Foods meals for your dog, you are able to select a 7-pack meal delivery option. For regular subscribers you have the option to receive a delivery bi-weekly or monthly with 14-pack or 30-pack meals.<\/p>"
+              "text": "<p>If this is your first time buying Puppy Gang Fresh Foods meals for your dog, you are able to select a 7-pack meal delivery option. For regular subscribers you have the option to receive a delivery bi-weekly or monthly with 14-pack or 30-pack meals.</p>"
             }
           },
           "1557955067777": {
             "type": "faq",
             "settings": {
               "title": "Can I postpone a scheduled delivery?",
-              "text": "<p>Yes! You can pause your subscription through your <a href=\"\/account\" title=\"https:\/\/puppygangfreshfoods.myshopify.com\/account\">account page<\/a>.<\/p>"
+              "text": "<p>Yes! You can pause your subscription through your <a href=\"/account\" title=\"https://puppygangfreshfoods.myshopify.com/account\">account page</a>.</p>"
             }
           },
           "1557955180348": {
             "type": "faq",
             "settings": {
               "title": "Is Puppy Gang Fresh Foods available without a subscription?",
-              "text": "<p>On your first time ordering with us you can do so without signing up to a subscription. However, Puppy Gang Fresh Foods is subscription-only for returning customers as we want to build a relationship with your pup, understand their nutritional needs and ensure you have access to the delicious food regularly. You can easily adjust, postpone or cancel your order at any time if you need to.<\/p>"
+              "text": "<p>On your first time ordering with us you can do so without signing up to a subscription. However, Puppy Gang Fresh Foods is subscription-only for returning customers as we want to build a relationship with your pup, understand their nutritional needs and ensure you have access to the delicious food regularly. You can easily adjust, postpone or cancel your order at any time if you need to.</p>"
             }
           },
           "1557955210887": {
             "type": "faq",
             "settings": {
               "title": "What if I want to make a change to my subscription?",
-              "text": "<p>You can make changes to the recipes you have ordered, frequency or volume at any time through your account.<\/p>"
+              "text": "<p>You can make changes to the recipes you have ordered, frequency or volume at any time through your account.</p>"
             }
           },
           "1557955230308": {
             "type": "faq",
             "settings": {
               "title": "What delivery options do I have?",
-              "text": "<p>We have arranged 2 delivery options for you: delivered straight to your door or at a UPS drop off location. The drop off locations may be useful if you are working late and want to ensure the meals are kept in freezer storage as long as possible. See our delivery options for more details on locations.<\/p>"
+              "text": "<p>We have arranged 2 delivery options for you: delivered straight to your door or at a UPS drop off location. The drop off locations may be useful if you are working late and want to ensure the meals are kept in freezer storage as long as possible. See our delivery options for more details on locations.</p>"
             }
           },
           "1557955272231": {
             "type": "faq",
             "settings": {
               "title": "What if I’m not home when Puppy Gang Fresh Foods delivers to my door?",
-              "text": "<p>Your pup&rsquo;s frozen meals will be delivered to you in cooler bags which will give you a longer period before needing put them in your freezer, however we do suggest that you retrieve them and put them back in the freezer within 1 hour so that they do not start to defrost.<\/p>"
+              "text": "<p>Your pup&rsquo;s frozen meals will be delivered to you in cooler bags which will give you a longer period before needing put them in your freezer, however we do suggest that you retrieve them and put them back in the freezer within 1 hour so that they do not start to defrost.</p>"
             }
           },
           "1557955301479": {
             "type": "faq",
             "settings": {
               "title": "I have other questions, who can I contact?",
-              "text": "<p>We would love to connect with you, please email us at <a href=\"mailto:info@puppygangfreshfoods.com\">info@puppygangfreshfoods.com<\/a><\/p>"
+              "text": "<p>We would love to connect with you, please email us at <a href=\"mailto:info@puppygangfreshfoods.com\">info@puppygangfreshfoods.com</a></p>"
             }
           }
         },
@@ -585,7 +585,7 @@
             "type": "specification",
             "settings": {
               "title": "Designed For Your Dog",
-              "text": "<p>We designed each recipe to give your dog flavourful variety each day and to ensure the meals meet their nutritional needs.<\/p>",
+              "text": "<p>We designed each recipe to give your dog flavourful variety each day and to ensure the meals meet their nutritional needs.</p>",
               "icon": "paw"
             }
           },
@@ -593,7 +593,7 @@
             "type": "specification",
             "settings": {
               "title": "Quality Ingredients",
-              "text": "<p>We use premium ingredients that are hormone and antibiotic free, and do not contain any grains or fillers.<\/p>",
+              "text": "<p>We use premium ingredients that are hormone and antibiotic free, and do not contain any grains or fillers.</p>",
               "icon": "nutrition"
             }
           },
@@ -601,7 +601,7 @@
             "type": "specification",
             "settings": {
               "title": "Veterinarian Approved",
-              "text": "<p>Each recipe has been formulated by a holistic veterinarian to provide the balance your dog needs.<\/p>",
+              "text": "<p>Each recipe has been formulated by a holistic veterinarian to provide the balance your dog needs.</p>",
               "icon": "medkit"
             }
           },
@@ -609,7 +609,7 @@
             "type": "specification",
             "settings": {
               "title": "Heart Healthy",
-              "text": "<p>&nbsp;Our fresh dog food is loaded with healthy fats and essential fatty acids like Omega-3.<\/p>",
+              "text": "<p>&nbsp;Our fresh dog food is loaded with healthy fats and essential fatty acids like Omega-3.</p>",
               "icon": "pulse"
             }
           }
@@ -639,10 +639,10 @@
             "settings": {
               "style": "default",
               "title": "Ready to Serve",
-              "text": "<p>Our dogs are our family, so we have made it easy for you to feed your dogs healthy and nutritious meals. With only 10 min of preparation time, there&rsquo;s no need to keep your pup waiting. Its as easy as that!<\/p>",
+              "text": "<p>Our dogs are our family, so we have made it easy for you to feed your dogs healthy and nutritious meals. With only 10 min of preparation time, there&rsquo;s no need to keep your pup waiting. Its as easy as that!</p>",
               "button_text": "Try Now",
-              "button_link": "shopify:\/\/collections\/our-meals",
-              "image": "shopify:\/\/shop_images\/ready-to-serve.jpg"
+              "button_link": "shopify://collections/our-meals",
+              "image": "shopify://shop_images/ready-to-serve.jpg"
             }
           }
         },
@@ -659,10 +659,10 @@
             "settings": {
               "style": "default",
               "title": "Puppy Gang Community",
-              "text": "<p>Puppy Gang Fresh Foods was formed in Toronto to make it easy to feed your dogs healthy and nutritious foods. We strive to foster a supportive group of dog lovers and focus on providing education on optimum nutrition and health for your pup! &nbsp;Join our Puppy Gang Community!<\/p>",
+              "text": "<p>Puppy Gang Fresh Foods was formed in Toronto to make it easy to feed your dogs healthy and nutritious foods. We strive to foster a supportive group of dog lovers and focus on providing education on optimum nutrition and health for your pup! &nbsp;Join our Puppy Gang Community!</p>",
               "button_text": "our story",
-              "button_link": "shopify:\/\/pages\/about",
-              "image": "shopify:\/\/shop_images\/puppy-gang-community.jpg"
+              "button_link": "shopify://pages/about",
+              "image": "shopify://shop_images/puppy-gang-community.jpg"
             }
           }
         },
@@ -686,10 +686,10 @@
           "1563517073864": {
             "type": "partner-section",
             "settings": {
-              "dynamicImage": "shopify:\/\/shop_images\/cct-logo.jpg",
+              "dynamicImage": "shopify://shop_images/cct-logo.jpg",
               "title": "Corporate Canine Therapy (CCT)",
               "subtitle": "Your Go-To Trained Therapy Dog Provider",
-              "dynamicDescription": "<p>Corporate Canine Therapy (CCT) is a reputable, Toronto-based company that provides trained Therapy dogs and their Handlers to the workplace environment (one dog and their owner\/handler is a &lsquo;team&rsquo;). We promote employee productivity and well-being by offering therapeutic dog visits right in your office space!<br><br>Your experience is our top priority. We provide a variety of unique services as well as offering exceptional choice of dog breeds and sizes to suit the wishes of individuals. We understand that not everyone is comfortable with dogs, which is why the communication with us prior to visits enables us to customize the interaction during your visit.&nbsp;<br><br>We understand the benefits of the human\/canine interaction. Our dedicated team will facilitate a structured office visit in a controlled environment at your place of work - board room, at your desk, or even outdoors. &nbsp;<br>Customize your CCT visit today! Discover a new way to engage your employees.&nbsp;<\/p>"
+              "dynamicDescription": "<p>Corporate Canine Therapy (CCT) is a reputable, Toronto-based company that provides trained Therapy dogs and their Handlers to the workplace environment (one dog and their owner/handler is a &lsquo;team&rsquo;). We promote employee productivity and well-being by offering therapeutic dog visits right in your office space!<br><br>Your experience is our top priority. We provide a variety of unique services as well as offering exceptional choice of dog breeds and sizes to suit the wishes of individuals. We understand that not everyone is comfortable with dogs, which is why the communication with us prior to visits enables us to customize the interaction during your visit.&nbsp;<br><br>We understand the benefits of the human/canine interaction. Our dedicated team will facilitate a structured office visit in a controlled environment at your place of work - board room, at your desk, or even outdoors. &nbsp;<br>Customize your CCT visit today! Discover a new way to engage your employees.&nbsp;</p>"
             }
           }
         },
@@ -776,7 +776,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-2": {
@@ -784,7 +784,7 @@
               "settings": {
                 "style": "light",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-3": {
@@ -792,7 +792,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             }
           },
@@ -850,19 +850,19 @@
             "images-with-text-1": {
               "type": "image",
               "settings": {
-                "text": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
+                "text": "<p>Say a bit about your brand, a specific product, or promotion.</p>"
               }
             },
             "images-with-text-2": {
               "type": "image",
               "settings": {
-                "text": "<p>Display up to four images, each with their own unique heading and text.<\/p>"
+                "text": "<p>Display up to four images, each with their own unique heading and text.</p>"
               }
             },
             "images-with-text-3": {
               "type": "image",
               "settings": {
-                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"
+                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.</p>"
               }
             }
           },
@@ -1032,7 +1032,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-2": {
@@ -1040,7 +1040,7 @@
               "settings": {
                 "style": "light",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-3": {
@@ -1048,7 +1048,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             }
           },
@@ -1199,7 +1199,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-2": {
@@ -1207,7 +1207,7 @@
               "settings": {
                 "style": "light",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             },
             "alternating-content-3": {
@@ -1215,7 +1215,7 @@
               "settings": {
                 "style": "default",
                 "button_text": "This is your call to action",
-                "button_link": "shopify:\/\/collections"
+                "button_link": "shopify://collections"
               }
             }
           },
@@ -1273,19 +1273,19 @@
             "images-with-text-1": {
               "type": "image",
               "settings": {
-                "text": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
+                "text": "<p>Say a bit about your brand, a specific product, or promotion.</p>"
               }
             },
             "images-with-text-2": {
               "type": "image",
               "settings": {
-                "text": "<p>Display up to four images, each with their own unique heading and text.<\/p>"
+                "text": "<p>Display up to four images, each with their own unique heading and text.</p>"
               }
             },
             "images-with-text-3": {
               "type": "image",
               "settings": {
-                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"
+                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.</p>"
               }
             }
           },

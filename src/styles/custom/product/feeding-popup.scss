@@ -1,0 +1,118 @@
+#popup-view-map {
+  min-width: 1080px;
+  .view-map--header {
+    padding: 0px 0 25px 38%;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .view-map--detail {
+    padding-left: 38%;
+    width: 90%;
+    padding-top: 30px;
+    p {
+      font-size: 15px;
+      padding: 0;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+  }
+  .view-map--inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .map-dog-sizes {
+      width: 33%;
+      padding-top: 124px;
+      margin-left: 5%;
+      .map-dog-size {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+           -ms-flex-align: center;
+              align-items: center;
+        &.map-dog--medium {
+          margin-top: 19px;
+          .map-dog-lines {
+            height: 90px;
+          }
+        }
+        &.map-dog--large {
+          margin-top: 13px;
+        }
+        .map-dog--label {
+          line-height: 1;
+          width: 33%;
+          font-size: 18px;
+        }
+        .map-dog--icon {
+          font-size: 0;
+          width: 33%;
+          text-align: right;
+          color: #818181;
+        }
+        .map-dog-lines {
+          height: 55px;
+          width: 34%;
+          padding-left: 10px;
+          .map-dog-line-range {
+            width: 40%;
+            height: 100%;
+            margin-left: auto;
+            border: 1px solid #707070;
+            border-right: 0;
+            position: relative;
+            margin-right: 0;
+            &::after {
+              content: '';
+              position: absolute;
+              top: 50%;
+              height: 1px;
+              right: 100%;
+              width: 155%;
+              background: #707070;
+            }
+          }
+        }
+      }
+    }
+    table {
+      border: 1px solid #707070;
+      border-right: none;
+      width: 58%;
+      margin: 0;
+      thead {
+        th {
+          background: #fff;
+          border-bottom: 1px solid #707070;
+          border-right: 1px solid #707070;
+          text-align: center;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 1.4;
+          padding: 20px 20px;
+        }
+      }
+      tbody {
+        tr {
+          td {
+            border: none;
+            border-right: 1px solid #707070;
+            text-align: center;
+            padding: 7px;
+          }
+          &:first-child {
+            td {
+              padding-top: 30px;
+            }
+          }
+          &:last-child {
+            td {
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
