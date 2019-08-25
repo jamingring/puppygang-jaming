@@ -46,17 +46,49 @@
   <link href="https://fonts.googleapis.com/css?family=Signika+Negative:400,700" rel="stylesheet">
 
 
-<script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script></head>
+</head>
 
+<style>
+  
+  .subspop.parnone{
+    display:none !important;
+    opacity:0 !important;
+    visibility:hidden !important;
+    height:0 !important;
+    width:0 !important;
+  }
+  </style>
+  
+  
 {% include 'additional-classes' %}
 <body class="{{ bodyClasses }}">
+  
+  
+  <div class="loderr"></div>
+  <div class="subspop">
+    	<div class="subspop_inner">
+          <div class="subspop_innerset">
+          <a href="#" class="clspop"><img src="https://cdn.shopify.com/s/files/1/0076/5499/8063/files/cross.png?4704" alt=""></a>
+          	<div class="subspop_tit">Get 20% off on your first freshly prepared doggy meal !</div>
+    		<!--{% section 'static-newsletter' %}-->
+          	<div class="klaviyo-form-H3PZZk"></div>
+          	<div class="subspop_promo">{% section 'pxs-announcement-bar' %}</div>
+          </div>
+    	</div>
+  </div>
+
+  
 
   {% section 'pxs-announcement-bar' %}
 
   {% section 'static-header' %}
 
   <main class="main-content">
+    
+    
 
+    
+    
     {% unless template contains 'index' or fullBleed %}
       {% unless template contains 'slideshow' and settings.product-slideshow-layout == 'full-width' %}
         {% include 'breadcrumbs' %}
@@ -65,6 +97,11 @@
 
     {{ content_for_layout }}
 	<noscript class="endOfLayoutContentX" type="text/mark"></noscript>{% include 'treedify_script' %}
+    <div class="instafeeed">
+    	<div id="insta-feed"></div>
+    </div>
+    
+    
   </main>
 
   {% section 'static-newsletter' %}
@@ -77,6 +114,9 @@
 
   {% include 'structured-data' %}
 
+  
+  
+  
 <!-- Begin ReCharge code -->
 {% include 'subscription-theme-footer' %}
 <!-- End ReCharge code -->
@@ -85,7 +125,20 @@
   
   
   
+ <script type="text/javascript" async 
+ src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=LB9v2y"></script> 
   
-{% include 'aaa_loyalty_snippet' %}
-<input type="hidden" id="656565115116111114101" data-customer-id="{{ customer.id }}" data-customer-email="{{ customer.email }}" data-customer-name="{{ customer.first_name }} {{ customer.last_name }}"/></body>
+  
+  
+  <script>
+  
+  $('input[type="radio"').click(function() { 
+        var new_href =$(this).next('a').attr('href');
+        $(".button.inverse").attr("href", new_href);        
+    });
+  
+</script>
+  
+  
+</body>
 </html>

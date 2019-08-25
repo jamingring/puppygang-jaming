@@ -77,6 +77,8 @@
   class="list-item product-list-item {{ list_item_style }}"
   id="product-list-item-{{ item.id }}"
 >
+  <label>
+  <input type="radio" id="anchor-link" name="rddoo">
   <a class="list-container" href="{{ item_url }}">
     <div class="list-image-wrapper">
       <div
@@ -110,6 +112,7 @@
     </div>
     <div class="list-text-wrapper">
       <div class="list-title">
+        
         {% unless onboarding %}
           {{ item.title }}
         {% else %}
@@ -153,4 +156,5 @@
       {% endcomment %}
     </div>
   </a>
+  </label>
 </div>

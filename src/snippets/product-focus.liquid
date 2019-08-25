@@ -8,7 +8,7 @@
 
   <div class="module-wrapper style-{{ section.settings.style }} border">
     <div class="module product-focus-wrapper {% if featured_image_alignment == 'bottom' %}align-image-to-section{% endif %}">
-
+      
       {% if section.settings.title != blank or section.settings.subtitle != blank %}
         <div class="module-header">
           {% if section.settings.title != blank %}
@@ -71,19 +71,23 @@
                           include 'rimg',
                           class: 'product-focus-list-item-icon-image',
                           img: block.settings.icon_image,
-                          size: '256x256',
+                          size: '500x472',
                           lazy: true
                         %}
+                        
                       </div>
                     {% endif %}
-                    <h4 class="module-title product-focus-list-item-title">
-                      {{ block.settings.title | escape }}
-                    </h4>
-                    {% if block.settings.text != blank %}
+                    <h4 class="module-title product-focus-list-item-title foctit">
+                      <span>{{ block.settings.title | escape }}</span>
+                      
+                      {% if block.settings.text != blank %}
                       <div class="module-content product-focus-list-item-text rte">
                         {{ block.settings.text }}
                       </div>
                     {% endif %}
+                      
+                    </h4>
+                    
                   </li>
                 {% endfor %}
               </ul>

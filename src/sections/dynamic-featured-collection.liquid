@@ -20,8 +20,47 @@
         {% endif %}
       </div>
     {% endif %}
+    
+    
+    
+    
+    <div class="row column-2 custffea_wrp">
+      	<div class="list-item mealslist">
+          <div class="row column-2">
+          {% for product in collections[section.settings.collection-meals].products limit: product_limit %}
+          
+          {% include 'product-list-item' %}
+        
+        {% endfor %}
+          </div>
+          
+      </div>
+      	<div class="list-item custffea">
+      
+      		{% for product in collections[section.settings.collection].products limit: product_limit %}
+          
+          {% include 'product-list-item' %}
+        
+        {% endfor %}
+          
+          
+          <div class="list-item bybtn">
+          <a class="button inverse" href="/collections/our-meals">
+                  <span>Buy Now</span>
+                  <span class="icon icon-arrow-right"></span>
+                </a>
+          </div>
+      
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
 
-    <div class="module-body dynamic-products-body">
+   <div class="module-body dynamic-products-body dddyyynnnaaoo">
       <div class="row column-{{ per_row }} {{ list_class }}">
         {% for product in collections[section.settings.collection].products limit: product_limit %}
           {% include 'product-list-item' %}
@@ -124,6 +163,11 @@
     {
       "type": "collection",
       "id": "collection",
+      "label": "Collection"
+    },
+{
+      "type": "collection",
+      "id": "collection-meals",
       "label": "Collection"
     }
   ],
