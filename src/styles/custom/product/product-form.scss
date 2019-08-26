@@ -25,3 +25,16 @@
     background-color: #FFD700;
   }
 }
+.product-price {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  .product-form-buttons {
+    margin-top: 20px;
+    button.button {
+      display: block;
+      margin: 10px auto 0;
+    }
+  }
+}

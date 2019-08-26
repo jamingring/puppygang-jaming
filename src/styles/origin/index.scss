@@ -4383,7 +4383,8 @@ input[type="button"].cart-shipping-calculate {
   padding: $gutter-double 0 $gutter-triple;
   font-size: 0;
   &.module-product-static {
-    padding: 60px 0 30px;
+    padding: 60px 20px 30px;
+    max-width: 1255px;
   }
 
   @include breakpoint(l) {

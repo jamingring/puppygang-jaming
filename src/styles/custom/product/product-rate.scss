@@ -31,6 +31,7 @@
 }
 
 .product-price {
+  margin-bottom: 15px;
   .money {
     color: #000;
   }
@@ -61,5 +62,19 @@
       outline: 0;
       border: none;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .product-rate {
+    font-size: 16px;
+    margin-bottom: 15px;
+    .product-rate--label {
+      margin-right: 15px;
+    }
+  }
+  .product-try-link {
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 }

@@ -1,0 +1,24 @@
+@media (max-width: 1280px) {
+  .product-slideshow {
+    padding-right: 10px;
+  }
+  .product-wrap {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-price-compare {
+    display: block;
+    margin-left: 0;
+  }
+  .product-price--feed {
+    margin-top: 5px;
+    padding-left: 0;
+  }
+  .product-price--map-link {
+    display: block;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
