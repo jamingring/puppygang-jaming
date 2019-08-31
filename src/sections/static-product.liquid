@@ -45,7 +45,9 @@
     </span>
     <span class="product-rate--info">24 Ratings & 12</span>
   </div>
-  <a class="product-try-link" href="#">First Time User? Try our trial pack</a>
+  <div class="product-try-link">
+    <a href="#">First Time User? Try our trial pack</a>
+  </div>
 {% endcapture %}
 
 {% capture product_title_markup %}
@@ -87,14 +89,14 @@
             {% endif %}
           </span>
         </span>
-        <div class="product-price--feed">
-          <span>$4.50 CAD per serving *</span>
-          <a href="#" class="product-price--map-link">
-            View Feeding guide for your dog
-          </a>
-        </div>
       {% endunless %}
     </span>
+  </div>
+  <div class="product-price--feed">
+    <span>$1.50 CAD per serving *</span>
+    <a class="product-price--map-link view_map--trigger" href="#popup-view-map">
+      View Feeding guide for your dog
+    </a>
   </div>
 {% endcapture %}
 
@@ -196,21 +198,8 @@
             </button>
           {% endfor %}
         </div>
-        <div class="product-form-buttons">
-          <button class="button buy-now-button">
-            Buy Now
-          </button>
-          {%- if product.available -%}
-            <button class="button trigger-form-button">
-              {{ add_to_cart_button | strip_newlines | strip_html | strip }}
-            </button>
-          {%- else -%}
-            <button class="button outline disabled">
-              {{ 'products.product.sold_out' | t }}
-            </button>
-          {%- endif -%}
-        </div>
-        <div class="gui text-left mt-5">
+        
+        <div class="gui text-left mt-5 hidden-xs">
           {% if product.description != blank and is_featured != true %}
             <div class="product-tabs">
               <div class="product-tabs-header">
@@ -267,13 +256,14 @@
             class: product_form_class,
             data-product-form: form_id
           %}
-            <!-- Begin ReCharge code -->
-              {% if product.available %}{% include 'subscription-product' %}{% endif %}
-            <!-- End ReCharge code -->
+            
 
             <div class="clearfix product-form-nav">
               {% if product.variants.size > 1 %}
                 <div class="product-options">
+                  <div class="product-option--label">
+                    Size
+                  </div>
                   {% include 'product-options-dropdown' %}
 
                   <div class="selector-wrapper no-js-required">
@@ -316,21 +306,28 @@
               <div id="infiniteoptions-container"></div>
               <div id="uploadery-container"></div>
 
-              <div class="number-input-wrapper product-quantity clearfix">
-                <div class="number-input-field">
-                  <input type="number" name="quantity" id="quantity" value="1" aria-label="{{ "general.general.quantity" | t }}" />
-                  <label class="number-input-label" for="quantity">{{ 'general.general.quantity' | t }}</label>
+              {% comment %} Quantity {% endcomment %}
+                <div class="product-option--label">
+                  Quantity
                 </div>
-                <div class="number-input-nav">
-                  <div class="number-input-nav-item icon icon-plus"></div>
-                  <div class="number-input-nav-item icon icon-minus"></div>
+                <div class="number-input-wrapper product-quantity clearfix">
+                  <div class="number-input-field">
+                    <input type="number" name="quantity" id="quantity" value="1" aria-label="{{ "general.general.quantity" | t }}" />
+                    <label class="number-input-label" for="quantity">{{ 'general.general.quantity' | t }}</label>
+                  </div>
+                  <div class="number-input-nav">
+                    <div class="number-input-nav-item icon icon-plus"></div>
+                    <div class="number-input-nav-item icon icon-minus"></div>
+                  </div>
                 </div>
-              </div>
             </div>
+
+            <!-- Begin ReCharge code -->
+              {% if product.available %}{% include 'subscription-product' %}{% endif %}
+            <!-- End ReCharge code -->
+
             {% comment %} Shipping Calculator for Shipping {% endcomment %}
-            {%- include 'deliver-shipping-calculator' -%}
-            {%- include 'feeding-view-map' -%}
-            <div class="add-to-cart clearfix hidden">
+            <div class="add-to-cart clearfix">
               {% if product.available %}
                 <div class="product-form-add-to-cart">
                   <div class="product-form-submit-wrap">
@@ -338,7 +335,7 @@
                       class="
                         button
                         add-to-cart-button
-                        {% if show_spb %}outline{% else %}inverse{% endif %}
+                        {% if show_spb %}outline-none{% else %}inverse-none{% endif %}
                       "
                       type="submit"
                       value="{{ add_to_cart_button | strip_newlines | strip_html | strip }}"
@@ -356,7 +353,27 @@
                 <input type="submit" class="button outline disabled" disabled="disabled" value="{{ 'products.product.sold_out' | t }}" />
               {% endif %}
             </div>
-            
+
+            {%- include 'deliver-shipping-calculator' -%}
+            {%- include 'feeding-view-map' -%}
+
+            <div class="gui text-left visible-xs-block">
+              {% if product.description != blank and is_featured != true %}
+                <div class="product-tabs">
+                  <div class="product-tabs-header">
+                    <div class="product-tabs-header-item active" data-tab="product-tab-description">
+                      {{ "products.product.description" | t }}
+                    </div>
+                  </div>
+                  <div class="product-tabs-body">
+                    <div class="product-tabs-body-item rte active" id="product-tab-description">
+                      {{ product.description }}
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+
             {% if settings.product_sale_goal_estimated_delivery_date != blank and showDeliveryEstimate %}
               <span class="product-featured-goal-delivery-date">
                 {{ productGoalDeliveryDate }}
@@ -404,7 +421,7 @@
       
       {%- if product.images.size > 1 -%}
         <div class="card gui text-left mt-5 feeling-guide--wrapper">
-          <div class="card-header"><h3>Feeding Guide</h3></div>
+          <div class="card-header"><h3>Meal Plan Calculator</h3></div>
           
           <div class="fg product-block card-body" style="">
             <p>How many calories does my dog need? Every animal has unique energy requirements and the amount of calories fed per day should be modified to prevent underfeeding or overfeeding of your pet. In order to determine your pet's nutritional needs, let's start with learning more about your pet.</p>

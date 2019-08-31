@@ -2,10 +2,21 @@
 // Deliver Form
 //************************************************************************//
 
-.deliver-calc {
-  #popup-view-map {
-    display: none;
+#popup-view-map {
+  display: none;
+}
+.deliever-calc--result {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  &.success {
+    color: #28a745;
   }
+  &.failure {
+    color: #ff9900;
+  }
+}
+.deliver-calc {
   a {
     &:focus, &:hover {
       outline: 0;

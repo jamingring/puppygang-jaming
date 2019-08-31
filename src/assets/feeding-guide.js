@@ -139,10 +139,10 @@ JQUERY: EVENT HANDLERS
 			*/
 
 			// setup tooltip
-			$('[data-toggle="tooltip"]').tooltip({
-				// settings: https://www.w3schools.com/bootstrap/bootstrap_ref_js_tooltip.asp
-				html: true
-			});
+			// $('[data-toggle="tooltip"]').tooltip({
+			// 	// settings: https://www.w3schools.com/bootstrap/bootstrap_ref_js_tooltip.asp
+			// 	html: true
+			// });
 
 		}
 

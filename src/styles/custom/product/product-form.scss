@@ -26,7 +26,26 @@
   }
 }
 .product-price {
-  margin-bottom: 15px;
+  margin-bottom: 0;
+  .price {
+    color: #000;
+  }
+}
+.product-form {
+  .select-wrapper, #rc_container {
+    max-width: 525px;
+  }
+  div#rc_container {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-form {
+    .select-wrapper, #rc_container {
+      max-width: none;
+    }
+  }
 }
 
 @media (max-width: 500px) {

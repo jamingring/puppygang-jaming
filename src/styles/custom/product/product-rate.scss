@@ -21,8 +21,10 @@
 .product-try-link {
   margin-bottom: 17px;
   display: block;
-  color: #0084FF;
   font-weight: 400;
+  a {
+    color: #0084FF;
+  }
   &:focus, &:hover {
     text-decoration: none;
     outline: 0;
@@ -31,7 +33,6 @@
 }
 
 .product-price {
-  margin-bottom: 15px;
   .money {
     color: #000;
   }
@@ -44,7 +45,8 @@
   font-size: 20px;
   line-height: 1;
   padding-left: 20px;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   span {
     color: #000;
     line-height: 1;

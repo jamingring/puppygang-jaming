@@ -11,7 +11,7 @@ var has_page_blocks = false;
 var audio_player;
 
 // object properties
-var audio_player_default_filename  = TS_WEBSITE_URL+ '/assets/audio/file.mp3';
+// var audio_player_default_filename  = TS_WEBSITE_URL+ '/assets/audio/file.mp3';
 
 // misc jQuery DOM selectors
 var selector_order_received_pickup_map = 'body.woocommerce-order-received #pickup-location';

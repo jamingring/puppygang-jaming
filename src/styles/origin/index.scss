@@ -2175,7 +2175,7 @@ input[type="number"] {
   display: inline-block;
   border: 1px solid $border-color;
   overflow: hidden;
-
+  margin: 0 0 20px;
   .no-js & {
     margin: $gutter/2 0 0;
   }
@@ -2183,7 +2183,7 @@ input[type="number"] {
 
 .number-input-field {
   float: left;
-  width: $input-number-width - $input-number-nav-width;
+  width: 80px;
   height: $input-number-height;
   background-color: $white;
   line-height: $input-number-height;
@@ -4661,14 +4661,15 @@ input[type="button"].cart-shipping-calculate {
     width: 100%;
   }
 }
-
+.product-option--label {
+  margin: 0;
+  padding-top: 2px;
+  font-size: 16px;
+  color: #8B8B8B;
+}
 .product-options {
-
+  margin: 0 0 20px;
   .selector-wrapper {
-    float: left;
-    width: 45%;
-    margin: 0 $gutter/2 $gutter/2 0;
-
     @include breakpoint(md) {
       width: 100%;
       margin: 0 0 $gutter/2;
@@ -4709,7 +4710,23 @@ input[type="button"].cart-shipping-calculate {
       padding-left: 0;
       width: 290px;
     }
+    &.button {
+      line-height: 1;
+      padding: 20px 30px;
+      border-radius: 30px;
+      min-width: 200px;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0 10px 0 0;
+      background-color: #FFD700;
+      &.disabled {
+        background-color: #c5c5c5;
+        user-select: none;
+        cursor: default;
+      }
+    }
   }
+
 }
 
 .product-form-submit-wrap {
