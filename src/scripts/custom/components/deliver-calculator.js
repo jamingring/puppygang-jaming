@@ -22,7 +22,7 @@ $(document).ready(function() {
           if (inputedValue.length>=4) {
             $delieveryResult
               .addClass('success')
-              .html('delievery is Available!');
+              .html('delivery is Available!');
           } else {
             $delieveryResult
               .addClass('failure')
@@ -39,6 +39,29 @@ $(document).ready(function() {
       var $viewMapBtn = $calcWrapper.find('.deliver-form--view_map').find('a');
       $viewMapBtn.click(function(e) {
         e.preventDefault();
+      });
+
+    /* Calculator Link in description */
+      var $calcLink = $calcWrapper.find('.deliver-calc--note').find('a[data-scrolldown]');
+      var $headerWrapper = $('.header[data-main-header="header"]');
+      var toElem="", headerHeight=0, elemTop=0;
+      $calcLink.click(function(e) {
+        e.preventDefault();
+        if (typeof $(this).attr('data-scrolldown') != 'undefined') {
+          if ($($(this).attr('data-scrolldown')).length > 0) {
+            toElem = $(this).attr('data-scrolldown');
+            if ($(window).width() > 720) {
+              headerHeight = $headerWrapper.outerHeight(true);
+            } else {
+              headerHeight = 0;
+            }
+            elemTop = $(toElem).offset().top - parseInt($(toElem).css('margin-top'));
+
+            $("html, body").animate({
+              scrollTop: (elemTop - headerHeight) 
+            }, 600);
+          }
+        }
       });
 
   }

@@ -4724,6 +4724,9 @@ input[type="button"].cart-shipping-calculate {
         user-select: none;
         cursor: default;
       }
+      &:not(.disabled):hover {
+        background-color: #ecd65d;
+      }
     }
   }
 
