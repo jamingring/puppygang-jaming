@@ -1,0 +1,24 @@
+div#insta-feed {
+  position: relative;
+  &::before {
+    content: "Follow us on Instagram for cute pics, discounts and more!";
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    color: #111;
+    font-size: 30px;
+    line-height: 32px;
+    width: 100%;
+  }
+  >h2 {
+    opacity: 0;
+  }
+  @media (max-width: 767px) {
+    > h2 {
+      height: 64px;
+    }
+  }
+}

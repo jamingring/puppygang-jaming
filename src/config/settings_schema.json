@@ -343,5 +343,16 @@
         "info": "32 x 32px .png required"
       }
     ]
+  },
+  {
+    "name": "Delivery",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "deliverable_postal_codes",
+        "label": "Deliverable Postal Codes",
+        "info": "90001, 90002, ..."
+      }
+    ]
   }
 ]

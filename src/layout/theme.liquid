@@ -44,7 +44,7 @@
   {% include 'scripts-styles-header' %}
   
   <link href="https://fonts.googleapis.com/css?family=Signika+Negative:400,700" rel="stylesheet">
-
+  <script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script>
 
 </head>
 
@@ -65,17 +65,19 @@
   
   
   <div class="loderr"></div>
-  <div class="subspop">
-    	<div class="subspop_inner">
-          <div class="subspop_innerset">
-          <a href="#" class="clspop"><img src="https://cdn.shopify.com/s/files/1/0076/5499/8063/files/cross.png?4704" alt=""></a>
-          	<div class="subspop_tit">Get 20% off on your first freshly prepared doggy meal !</div>
-    		<!--{% section 'static-newsletter' %}-->
-          	<div class="klaviyo-form-H3PZZk"></div>
-          	<div class="subspop_promo">{% section 'pxs-announcement-bar' %}</div>
-          </div>
-    	</div>
-  </div>
+  {% comment %}
+    <div class="subspop">
+        <div class="subspop_inner">
+            <div class="subspop_innerset">
+            <a href="#" class="clspop"><img src="https://cdn.shopify.com/s/files/1/0076/5499/8063/files/cross.png?4704" alt=""></a>
+              <div class="subspop_tit">Get 20% off on your first freshly prepared doggy meal !</div>
+          <!--{% section 'static-newsletter' %}-->
+              <div class="klaviyo-form-H3PZZk"></div>
+              <div class="subspop_promo">{% section 'pxs-announcement-bar' %}</div>
+            </div>
+        </div>
+    </div>
+  {% endcomment %}
 
   
 
@@ -96,9 +98,9 @@
     {% endunless %}
 
     {{ content_for_layout }}
-	<noscript class="endOfLayoutContentX" type="text/mark"></noscript>{% include 'treedify_script' %}
+  <noscript class="endOfLayoutContentX" type="text/mark"></noscript>{% include 'treedify_script' %}
     <div class="instafeeed">
-    	<div id="insta-feed"></div>
+      <div id="insta-feed"></div>
     </div>
     
     

@@ -37,17 +37,22 @@
 
 {% capture product_rate_markup %}
   <div class="product-rate">
-    <span class="product-rate--label">
-      4.0
-      <span class="product-rate--star">
-        {%- include 'icons' icon: "star" -%}
+    {% comment %}
+      <span class="product-rate--label">
+        4.0
+        <span class="product-rate--star">
+          {%- include 'icons' icon: "star" -%}
+        </span>
       </span>
-    </span>
-    <span class="product-rate--info">24 Ratings & 12</span>
+      <span class="product-rate--info">24 Ratings & 12</span>
+    {% endcomment %}
+    <span class="shopify-product-reviews-badge" data-id="{{ product.id }}">
   </div>
-  <div class="product-try-link">
-    <a href="#">First Time User? Try our trial pack</a>
-  </div>
+  {%- unless product.handle == "variety-pack-mixed-7-pack-trial" -%}
+    <div class="product-try-link">
+      <a href="/collections/our-meals/products/variety-pack-mixed-7-pack-trial">First Time User? Try our trial pack</a>
+    </div>
+  {%- endunless -%}
 {% endcapture %}
 
 {% capture product_title_markup %}
